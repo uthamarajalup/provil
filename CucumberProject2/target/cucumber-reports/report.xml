@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="35.216">
+<testcase classname="Testing the API endpoint with RestAssured" name="Verify &amp; Find the pet id" time="14.711">
+<system-out><![CDATA[When I send a Get request to get response code for petstore endpoint........passed
+Then The Response Status code should be 200.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Create a new response code" time="8.032">
+<system-out><![CDATA[When I send a post request to create response code for petstore endpoint....passed
+Then The Response Status code should be created with expected code 405......passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Update the pet id &amp; Name" time="4.374">
+<system-out><![CDATA[When I send a Put request to update code for petstore endpoint..............passed
+Then The Response Status code should be updated with expected code 405......passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Remove the response code" time="7.377">
+<system-out><![CDATA[When I send a Delete request to delete response code for petstore endpoint..passed
+Then The Response Status code should be deleted with expected code 405......passed
+]]></system-out>
+</testcase>
+</testsuite>

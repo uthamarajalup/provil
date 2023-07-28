@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="12.453784">
+<testcase classname="Testing the API endpoint with RestAssured" name="Verify &amp; Find the pet id" time="8.165985">
+<system-out><![CDATA[When I send a Get request to get response code for petstore endpoint........passed
+Then The Response Status code should be 200.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Update the pet id &amp; Name" time="1.526172">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)&#13;&#10;&#9;at ✽.The Response Status code should be 200(file:src/test/resources/Features/Task.feature:9)&#13;&#10;"><![CDATA[When I send a Put request to update code for petstore endpoint..............passed
+Then The Response Status code should be 200.................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)
+	at ✽.The Response Status code should be 200(file:src/test/resources/Features/Task.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Create a new response code" time="1.377472">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)&#13;&#10;&#9;at ✽.The Response Status code should be 201(file:src/test/resources/Features/Task.feature:13)&#13;&#10;"><![CDATA[When I send a post request to create response code for petstore endpoint....passed
+Then The Response Status code should be 201.................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)
+	at ✽.The Response Status code should be 201(file:src/test/resources/Features/Task.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Testing the API endpoint with RestAssured" name="Remove the response code" time="1.384155">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)&#13;&#10;&#9;at ✽.The Response Status code should be 200(file:src/test/resources/Features/Task.feature:17)&#13;&#10;"><![CDATA[When I send a Delete request to delete response code for petstore endpoint..passed
+Then The Response Status code should be 200.................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at com.stepdefination.PetStore.the_Response_Status_code_should_be(PetStore.java:24)
+	at ✽.The Response Status code should be 200(file:src/test/resources/Features/Task.feature:17)
+]]></failure>
+</testcase>
+</testsuite>
