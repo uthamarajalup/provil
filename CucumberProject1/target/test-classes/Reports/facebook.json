@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-19T13:24:11.741Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1963200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC01_validation of order functionality with valid credentials",
+        "description": "",
+        "id": "validation-of-order-\u0026-remove-product-in-flipkart-web-application;tc01-validation-of-order-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 53500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User launch The Flipkart URL",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User do a product search",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User select the product and Add it to the cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User should verify the product",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User place the order",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User Login to the application to validate the order with valid credentials",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User select the Address and Payment option",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User remove the product from cart and verify the page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Order \u0026 Remove product in Flipkart Web Application",
+    "description": "",
+    "id": "validation-of-order-\u0026-remove-product-in-flipkart-web-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Flipkart.feature",
+    "tags": []
+  }
+]

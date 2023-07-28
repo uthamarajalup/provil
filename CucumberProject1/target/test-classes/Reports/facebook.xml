@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.259997">
+<testcase classname="Validation of Order &amp; Remove product in Flipkart Web Application" name="TC01_validation of order functionality with valid credentials" time="0.259997">
+<skipped><![CDATA[Given User launch The Flipkart URL..........................................undefined
+When User do a product search...............................................undefined
+And User select the product and Add it to the cart..........................undefined
+Then User should verify the product.........................................undefined
+When User place the order...................................................undefined
+Given User Login to the application to validate the order with valid credentials.undefined
+When User select the Address and Payment option.............................undefined
+Then User remove the product from cart and verify the page..................undefined
+]]></skipped>
+</testcase>
+</testsuite>
